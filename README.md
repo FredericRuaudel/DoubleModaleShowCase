@@ -11,7 +11,7 @@ Two usecases are tested in this project for both UIKit and SwiftUI navigation:
     2. Dismissing the first one, waiting 300ms then presenting the second one.
     
 In usecase 1, the UIKit navigation will not present the second popover, while the SwiftUI navigation will present it correctly.
-In usecase 2, the UIKit navigation will dismiss the second popover before it is displayed and dismiss the modale view controller, while the SwiftUI navigation will dismiss the second popover before it is shown but keep the modale.
+In usecase 2, the UIKit navigation will dismiss the second popover before it is displayed and also dismiss the modale view controller, while the SwiftUI navigation will dismiss the second popover before it is shown but keep the modale.
 
 ## Project demo
 
