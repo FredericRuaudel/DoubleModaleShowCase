@@ -13,6 +13,10 @@ Two usecases are tested in this project for both UIKit and SwiftUI navigation:
 In usecase 1, the UIKit navigation will not present the second popover, while the SwiftUI navigation will present it correctly.
 In usecase 2, the UIKit navigation will dismiss the second popover before it is displayed and dismiss the modale view controller, while the SwiftUI navigation will dismiss the second popover before it is shown but keep the modale.
 
+## Project demo
+
+https://github.com/user-attachments/assets/a15dfbf6-3a5c-494f-9627-e95b00d99777
+
 ## Issue
 
 See below the sequence diagrams that illustrate the issue for both SwiftUI and UIKit navigation.
