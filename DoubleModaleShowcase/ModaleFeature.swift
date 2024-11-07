@@ -42,7 +42,7 @@ struct ModaleReducer {
                     state.shareResultMessage = "Sharing \(value)…"
                     state.destination = nil
                     return .run { [value] send in
-                        try await Task.sleep(nanoseconds: 300 * NSEC_PER_MSEC)
+                        try await Task.sleep(nanoseconds: 1000 * NSEC_PER_MSEC)
                         await send(.showShareSheet(value))
                     }
 

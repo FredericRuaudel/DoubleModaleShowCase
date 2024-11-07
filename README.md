@@ -118,3 +118,13 @@ sequenceDiagram
         note over MR,SOV: GOOD: everything OK
     end
 ```
+
+## Workaround
+
+I finally found a workaround to this issue. In fact, the waiting time between the dismiss of the first popover and the presentation of the second one is the key to the issue. If you wait a little bit more before presenting the second popover, the UIKit navigation will work as expected. 
+
+**Waiting 300ms was too little so I tried increasing the value and found that 1sec was working fine**. 
+
+The current version of the repo is reflecting this change.
+
+
