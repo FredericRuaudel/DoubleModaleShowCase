@@ -3,6 +3,8 @@ Showcase the double modal presentation issue in SwiftUI and UIKit with TCA
 
 At the time of writing, the issue is still present in TCA 1.15.2.
 
+This issue is discussed in the following thread: https://github.com/pointfreeco/swift-composable-architecture/discussions/3371#discussioncomment-10619643
+
 ## Description
 
 This project is a showcase of a bug that occurs when you present a modale and then present a popover over a popover from that modale, the behavior of SwiftUI and UIKit are not consistent.
